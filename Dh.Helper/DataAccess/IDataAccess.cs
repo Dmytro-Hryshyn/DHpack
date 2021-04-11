@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Dh.Helper.DataAccess
+namespace DHpack.DataAccess
 {
     public interface IDataAccess
     {
