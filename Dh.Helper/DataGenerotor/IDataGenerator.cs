@@ -6,7 +6,7 @@ using System.Text;
 
 namespace DHpack.DataGenerotor
 {
-    interface IDataGenertor
+    public interface IDataGenerator
     {
         static Random Random = new Random();
         public List<string> GenerateName(int numberofNames = 1);
@@ -33,7 +33,7 @@ namespace DHpack.DataGenerotor
         }
         public static Stream GetResourceAsStream(string resourceName)
         {
-            return typeof(IDataGenertor).GetTypeInfo().Assembly.GetManifestResourceStream($"DHpack.DataGenerator.Data.{resourceName}.txt");
+            return typeof(IDataGenerator).GetTypeInfo().Assembly.GetManifestResourceStream($"DHpack.DataGenerator.Data.{resourceName}.txt");
         }
         public static IEnumerable<string> GetResourceAsLine(string fileName)
         {
