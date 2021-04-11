@@ -1,4 +1,4 @@
-﻿namespace DHpack.DataGenerotor.Enums
+﻿namespace DHpack.DataGenerator.Enums
 {
     public enum FileName
     {

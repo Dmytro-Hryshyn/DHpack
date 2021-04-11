@@ -17,27 +17,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="DataGenerotor\Data\Countries.txt" />
-    <None Remove="DataGenerotor\Data\EmailDomains.txt" />
-    <None Remove="DataGenerotor\Data\FemaleNames.txt" />
-    <None Remove="DataGenerotor\Data\LastNames.txt" />
-    <None Remove="DataGenerotor\Data\MaleNames.txt" />
+    <None Remove="DataGenerator\Data\Countries.txt" />
+    <None Remove="DataGenerator\Data\EmailDomains.txt" />
+    <None Remove="DataGenerator\Data\FemaleNames.txt" />
+    <None Remove="DataGenerator\Data\LastNames.txt" />
+    <None Remove="DataGenerator\Data\MaleNames.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="DataGenerotor\Data\Countries.txt">
+    <EmbeddedResource Include="DataGenerator\Data\Countries.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataGenerotor\Data\EmailDomains.txt">
+    <EmbeddedResource Include="DataGenerator\Data\EmailDomains.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataGenerotor\Data\FemaleNames.txt">
+    <EmbeddedResource Include="DataGenerator\Data\FemaleNames.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataGenerotor\Data\LastNames.txt">
+    <EmbeddedResource Include="DataGenerator\Data\LastNames.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataGenerotor\Data\MaleNames.txt">
+    <EmbeddedResource Include="DataGenerator\Data\MaleNames.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

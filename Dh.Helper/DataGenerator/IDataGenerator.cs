@@ -4,7 +4,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace DHpack.DataGenerotor
+namespace DHpack.DataGenerator
 {
     public interface IDataGenerator
     {

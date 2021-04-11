@@ -4,7 +4,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 
-namespace DHpack.DataGenerotor
+namespace DHpack.DataGenerator
 {
     public static class RandomHelper
     {
@@ -21,7 +21,7 @@ namespace DHpack.DataGenerotor
         }
         public static Stream GetResourceAsStream(string resourceName)
         {
-            return typeof(IDataGenertor).GetTypeInfo().Assembly.GetManifestResourceStream($"DHpack.DataGenerator.Data.{resourceName}.txt");
+            return typeof(IDataGenerator).GetTypeInfo().Assembly.GetManifestResourceStream($"DHpack.DataGenerotor.Data.{resourceName}.txt");
         }
         public static IEnumerable<string> GetResourceAsLine(string fileName)
         {
